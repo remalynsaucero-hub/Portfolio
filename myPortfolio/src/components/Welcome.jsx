@@ -1,16 +1,10 @@
-function Sidebar() {
+function Welcome() {
   return (
-    <aside className="sidebar">
-      <h2>Menu</h2>
-
-      <ul>
-        <li>Dashboard</li>
-        <li>Students</li>
-        <li>Records</li>
-        <li>Settings</li>
-      </ul>
-    </aside>
+    <div className="welcome">
+      <h2>Welcome!</h2>
+      <p>Here you can manage student records.</p>
+    </div>
   );
 }
 
-export default Sidebar;
+export default Welcome;
